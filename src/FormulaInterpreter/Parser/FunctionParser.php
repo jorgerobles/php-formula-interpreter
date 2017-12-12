@@ -74,7 +74,7 @@ class FunctionParser implements ParserInterface {
                     break;
             }
         }
-        $arguments[] = substr($expression, $previous, $position);
+        $arguments[] = trim(substr($expression, $previous, $position));
 
         return $arguments;
     }
