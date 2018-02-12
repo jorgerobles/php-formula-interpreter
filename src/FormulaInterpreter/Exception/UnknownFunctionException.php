@@ -12,7 +12,7 @@ namespace FormulaInterpreter\Exception;
  *
  * @author mathieu
  */
-class UnknownFunctionException extends \Exception {
+class UnknownFunctionException extends Exception {
     
     protected $name;
     
